@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+	<meta charset="utf-8" />
+    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<meta name="description" content="Acquista qui i tuoi prodotti compatibili con Amazon Echo e Google Assistant"/>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>Casa Domotica</title>
+    
+    
+	<!-- CSS-->
+    
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
+	<link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css" />
+    
+    
+	<!-- JS -->
+    
+	<script src="js/materialize.js"></script>
+    
+    
+	<!-- FontAwesome -->
+    
+	<link rel="sylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+    
+	<!-- Fonts from GoogleFonts -->
+    
+	<link href="https://fonts.googleapis.com/css?family=Cougrette|Mr+Dafoe|Permanent+Marker">
+
+</head>
+
+<body>
+    
+	<!-- Navbar -->
+    
+	<div class="navbar-fixed">
+        
+		<label for="showMenu" class="showMenu">
+            
+			<i class="fa fa-align-justify fa-lg"></i>
+            
+			Casa Domotica
+        
+		</label>
+        
+		<input type="checkbox" id="showMenu" role="button">
+        
+		<ul id="menu"> 
+            
+			<li><a href="#">Home</a></li>
+            
+			<li><a href="">Amazon Echo</a>
+                
+				<ul class="hidden">
+                    
+					<li><a href="html/amazon/luci.html">Luci</a></li>
+                    
+					<li><a href="html/amazon/prese.html">Prese</a></li>
+                    
+					<li><a href="html/amazon/speaker.html">Speaker</a></li>
+                
+				</ul>
+            
+			</li>
+            
+			<li><a href="">Google Assistant</a>
+                
+				<ul class="hidden"> 
+                    
+					<li><a href="html/google/luci.html">Luci</a></li>
+                    
+					<li><a href="html/google/prese.html">Prese</a></li>
+                    
+					<li><a href="html/google/speaker.html">Speaker</a></li>
+                
+				</ul>
+            
+			</li>
+        
+		</ul>
+    
+	</div>
+
+
+	<!-- Amazon -->
+    
+	<div id="amazon">
+        
+		<div class="section-intro no-pad-bot">
+            
+			<div class="container">
+                
+				<br><br>
+                
+				<h1 class="header center">Amazon Echo</h1>
+                
+				<div class="row center">
+                    
+					<h5 class="header-sub col s12">Acquista dispositivi compatibili con dispositivi Amazon Echo</h5>
+                
+				</div>
+                
+				<div class="row center">
+                    
+					<a href="html/google/google.html" class="btn-large waves-effect waves-light">Amazon Echo</a>
+                
+				</div>
+                
+				<br><br>
+            
+			</div>
+        
+		</div>
+        
+	<div class="parallax"><img src="images/amazonecho.jpg" alt="Unsplashed background img 1"></div>        
+    
+	</div>
+    
+    
+	<!-- Google -->
+    
+	<div id="google">
+        
+		<div class="section-intro no-pad-bot">
+            
+			<div class="container">
+                
+				<br><br>
+                
+				<h1 class="header center">Google Assistant</h1>
+                
+				<div class="row center">
+                    
+					<h5 class="header-sub col s12">Acquista dispositivi compatibili con dispositivi Google Assistant</h5>
+                
+				</div>
+                
+				<div class="row center">
+                    
+					<a href="html/google/google.html" class="btn-large waves-effect waves-light">Google Assistant</a>
+                
+				</div>
+                
+				<br><br>
+            
+			</div>
+        
+		</div>
+        
+	<div class="parallax"><img src="googlehome.jpg" alt="Unsplashed background img 1"></div>
+    
+	</div>
+
+</body>
+
+</html>
